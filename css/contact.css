@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+}
+
+.header {
+  width: auto;
+  height: 78vh;
+  
+
+}
+
+.main {
+  width: auto;
+  height: 250vh;
+  
+
+}
+
+/* navbar  */
+
+.navbar {
+  border-bottom: 1px solid black !important;
+  color: white !important;
+}
+
+
+
+.container-fluide {
+  height: 700px;
+  background-color: black;
+}
+
+/* //////////////////////// slider css  */
+
+.carousel {
+  background-color: black !important;
+  height: 800px !important;
+}
+
+.carousel img {
+  height: 800px;
+  opacity: 0.3;
+}
+
+.carousel-caption {
+  margin-bottom: 300px;
+}
+
+.carousel-caption h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+}
+
+
+
+.form {
+background-color: black;
+  margin-top: 300px;
+  left: 150px;
+  height: 700px;
+  display: flex;
+}
+
+.form h3 {
+  margin: 30px;
+}
+
+.contact_form {
+  height: 600px;
+  background-color: white;
+
+  margin-top: 50px;
+}
+
+
+
+
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid rgb(37, 160, 160);
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+  border: none;
+  border-bottom: 2px solid rgb(37, 160, 160);
+}
+
+#name {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+#email {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#massage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.contact_info {
+  background-color: black;
+  margin-left: 20px !important;
+  height: 100%;
+  width: 65% !important;
+}
+
+.contact_info h3 {
+  color: white;
+  margin-top: 100px;
+ 
+}
+
+#btn_contact {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(37, 160, 160);
+  margin-left: 25%;
+  margin-top: 40px;
+  border: none;
+  color: white;
+}
+
+.contact_info ul li {
+
+color: white;
+margin-top: 10px;
+}
+
+.links{
+display: flex;
+
+
+}
+
+.links li {
+margin: 30px;
+
+
+}
+
+.links li a{
+color: white;
+
+}
+
+
+.links li a i{
+
+  font-size: 40px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+  header{
+height: 400px;
+
+  }
+  
+  
+  .carousel {
+    background-color: black !important;
+    height: 400px !important;
+  }
+
+  .carousel img {
+    height: 400px;
+    opacity: 0.3;
+  }
+
+
+  .container_content {
+    height: 500px;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+  }
+
+  .img {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .form {
+  
+   
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      height: 80%;
+    }
+
+    .form h3 {
+      margin-left: 27%;
+      width: 200px;
+      font-size: 17px;
+    }
+    
+
+    input {
+      width: 200px;
+      height: 20px;
+      padding: 5px;
+      
+    }
+
+    textarea {
+      width: 200px;
+      height: 110px;
+  
+      border: 2px solid rgb(37, 160, 160);
+    }
+    
+    .contact_info {
+      background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 10px;
+      height: 30%;
+      width: 80% !important;
+    }
+
+.contact_info h3{
+
+  margin-left:auto;
+  margin-right: auto;
+  font-size: 14px;
+
+}
+
+    .contact_info ul{
+
+
+   margin-left: auto;
+   margin-right: auto;
+         
+    }
+
+.links li {
+margin: 10px;
+
+
+}
+
+   
+}
